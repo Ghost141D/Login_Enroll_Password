@@ -1,0 +1,56 @@
+.login {
+  font-family: "SimSun", "宋体", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #7f7fd5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #91eae4,
+    #86a8e7,
+    #7f7fd5
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #91eae4,
+    #86a8e7,
+    #7f7fd5
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  .content {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    h3 {
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      color: #000;
+    }
+    .switch {
+      width: 250px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-left: 80px;
+    }
+    .text {
+      color: #000;
+      font-size: 14px;
+      font-family: "宋体";
+      margin-right: -75px;
+    }
+    .ant-btn-link {
+      padding: 0;
+      font-family: inherit;
+    }
+    .ant-form-item-additional {
+      margin-left: -20px;
+    }
+  }
+}
